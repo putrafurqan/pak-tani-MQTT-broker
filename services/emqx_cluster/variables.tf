@@ -52,7 +52,7 @@ variable "firewall_ports" {
 variable "emqx_ports" {
   description = "(Required) Ingress of emqx"
   type        = list(string)
-  default     = ["1883", "8883", "8083", "8084", "18083"]
+  default     = ["1883", "8883",  "18083"]
 }
 
 variable "target_tags" {
